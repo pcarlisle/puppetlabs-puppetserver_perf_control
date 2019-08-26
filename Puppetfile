@@ -9,7 +9,9 @@ mod 'puppetlabs/yumrepo_core', '1.0.0'
 
 # Modules required to get a tomcat server up and running
 mod 'puppetlabs/tomcat', '1.5.0'
-mod 'puppetlabs/stdlib', '5.2.0'
+mod 'stdlib',
+    :git => 'file:///home/patrick/work/puppetlabs-stdlib'
+
 mod 'nanliu/staging', '1.0.3'
 mod 'puppetlabs/concat', '2.1.0'
 mod 'puppetlabs/java', '1.6.0'
